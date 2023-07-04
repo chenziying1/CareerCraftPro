@@ -29,11 +29,10 @@ SECRET_KEY = 'django-insecure-ep_y63_ulpdads@60hx&ybwx5u(+t7cwk0)k^u0z(=cre$dsm^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
-SECURE_SSL_REDIRECT = True
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "sslserver",
     'jianli',
 ]
 
